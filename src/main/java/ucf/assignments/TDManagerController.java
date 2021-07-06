@@ -54,4 +54,26 @@ public class TDManagerController {
         // find the list that the item belongs in
         // removeItem() from its parenting list
     }
+
+    // when the user wants to change the description for an item
+    public void doChangeItemDescription(ActionEvent actionEvent) {
+        // find the item that the user is clicking
+        // do setDescription()
+    }
+
+    // when the user changes the due date
+    public void doChangeItemDueDate(ActionEvent actionEvent) {
+        // grab the item
+        // setDueDate(item);
+    }
+
+    // when the user imports the todo list from a json file
+    public void doImportFromJSON(ActionEvent actionEvent) {
+        // call importer.importFromJSON()
+    }
+
+    // when the user exports to JSON
+    public void doExportToJSON(ActionEvent actionEvent) {
+        // call exporter.exportToJSON()
+    }
 }
